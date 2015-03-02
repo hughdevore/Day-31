@@ -1,4 +1,4 @@
-angular.module('app.controllers', ['app.services'])
+angular.module('app.controllers', [])
 .controller('MenuCtrl', function($scope, $state) {
 	$scope.goMenu = function() {
 		$state.go('menu');
